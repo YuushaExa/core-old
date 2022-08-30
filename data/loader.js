@@ -66,6 +66,10 @@
             'gb-wasm.data' : 'https://yuushaexa.github.io/core-old/data/cores/gb-wasm.data',
                         'snes-old-wasm.data' : 'https://yuushaexa.github.io/core-old/data/old/snes-old-wasm.data'
         };
+    EJS_Buttons = {
+    screenRecord: false,
+    screenshot: false
+}
     let config = {};
     config.gameUrl = EJS_gameUrl;
     'undefined' != typeof EJS_mameCore && (config.mameCore = EJS_mameCore);
