@@ -63,7 +63,8 @@
                  'extractzip.js' : 'https://yuushaexa.github.io/core-old/data/extractzip.js',
             'snes-wasm.data' : 'https://yuushaexa.github.io/core-old/data/cores/snes-wasm.data',
             'nes-wasm.data' : 'https://yuushaexa.github.io/core-old/data/cores/nes-wasm.data',
-            'gb-wasm.data' : 'https://yuushaexa.github.io/core-old/data/cores/gb-wasm.data'
+            'gb-wasm.data' : 'https://yuushaexa.github.io/core-old/data/cores/gb-wasm.data',
+                        'snes-old-wasm.data' : 'https://yuushaexa.github.io/core-old/data/old/snes-old-wasm.data'
         };
     let config = {};
     config.gameUrl = EJS_gameUrl;
