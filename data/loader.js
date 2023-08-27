@@ -68,7 +68,7 @@
         };
     EJS_Buttons = {
     screenRecord: false,
-    screenshot: false
+    screenshot: true
 }
     let config = {};
     config.gameUrl = EJS_gameUrl;
