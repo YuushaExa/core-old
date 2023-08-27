@@ -52,9 +52,8 @@
       if ('undefined' != typeof EJS_DEBUG_XX && true === EJS_DEBUG_XX) {
         await loadStyle('https://yuushaexa.github.io/core-old/data/emu-css.css');
         await loadScript('https://yuushaexa.github.io/core-old/data/emu-main.js');
-        await loadScript('https://yuushaexa.github.io/core-old/data/emulator.js');
-    } else {
-        await loadStyle('https://yuushaexa.github.io/core-old/data/emu-css.min.css');
+        await loadScript('https://yuushaexa.github.io/core-old/data/emulator.js');   
+          await loadStyle('https://yuushaexa.github.io/core-old/data/emu-css.min.css');
         await loadScript('https://yuushaexa.github.io/core-old/data/emulator.min.js');
     };
         EJS_paths = {
